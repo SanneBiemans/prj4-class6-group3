@@ -5,8 +5,20 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: 'Lato', sans-serif;
+	background-color: #FFF3D5;
+}
+
+.title { 
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+
+}
+
+.nav-title {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+
 }
 
 /* Changing the background colour for the header */
@@ -18,7 +30,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #ff971e;
 }
 
 /* Effect on social media buttons */
