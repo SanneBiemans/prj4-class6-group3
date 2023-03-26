@@ -21,6 +21,12 @@ body {
 
 }
 
+.nav-logo {
+	 position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Changing the background colour for the header */
 
 header {
@@ -30,9 +36,24 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #ff971e;
+	min-height: 150px;
+	padding-bottom: 35px;
+	padding-top: 20px;
 }
 
+
+
+.navbar-brand img{
+	max-height: 150px;
+}
+
+.navbar-place {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -45,3 +66,113 @@ footer a:hover {
 	color: #800000;
 	font-weight: bold;
 }
+
+.value.img.place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value.img.size {
+  margin-right: 10px;
+}
+
+
+.carousel-container {
+	margin-top: 650px;
+}
+
+.car.img.size {
+	max-height: 30px !important;
+	max-width: 30px !important;
+}
+
+.carousel-option {
+	margin-left: auto;
+	margin-right: 0;
+	text-align: center;
+}
+
+.first-row {
+	  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	background-color: #ff971e;
+	height: 100%;
+	width: 100%;
+}
+
+.index-page-text {
+	font-family: 'Delicious Handrawn', cursive;
+	font-size: 100px;
+	color: #5adae6;
+	text-shadow: 5px 5px 0 #00975d;
+}
+
+section{
+	margin: 0;
+	background-color: #ff971e;
+}
+
+.index-page-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-page-img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-page-img-container img {
+  width: 80%;
+}
+
+.full-width-image {
+  width: 100%;
+  margin: 50px;
+  
+}
+
+.full-width-image img {
+  width: 100%;
+  display: block;
+  height: auto;
+
+}
+
+.content-above {
+	margin-top: 2000px;
+	margin-bottom: -50px;
+}
+
+.centered-text {
+  text-align: center;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 80px;
+  color: #ff971e;
+}
+
+.vision-text {
+	font-size: 50px;
+	text-align: center;
+}
+
+.carousel-item {
+	width: 60%;
+	height: auto;
+	margin-left: 150px;
+}
+
+.value-title {
+	font-family: 'Delicious Handrawn', cursive;
+	color: #5adae6;
+	font-size: 60px;
+	margin-top: 60px;
+
+}
+
+
+

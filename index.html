@@ -24,6 +24,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato:wght@300&family=Shantell+Sans&display=swap" rel="stylesheet">
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
     <!-- End of Google Analytics code -->
@@ -32,10 +36,10 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-place">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/chameleon.png" width="150" alt="Chameleon Logo">
+        <a class="navbar-brand ms-3" href="#">
+          <img src="images/chameleon.logo.nb.png" width="150" alt="Chameleon Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -70,17 +74,78 @@
     <!-- End of navigation bar -->
 
     <!-- Start of main placeholder in landing page -->
-    <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-      <img class="" src="images/chameleon.logo.png" width="300">
-      <h1 class="title">Chameleon</h1>
-      <h5 class="fst-italic mb-5">Coming soon...</h5>
-      <div class="container text-center">
-        <p>This is a page you can use as a placeholder for your future website.</p>
-        <p>Once published (which should be at the end of week 5 of the project), it can be fully integrated within your marketing campaign.</p>
-        <p>You will then replace this landing page by a full website.</p>
-        <p>To build your website, pick and mix elements from the UX pattern pages of this website (check menu above).</p>
+   <main class="h-100 d-flex flex-column justify-content-center align-items-center">
+  <div class="first-row content-above" style="padding-top: 500px">
+    <div class="index-page-text-container">
+      <h1 class="index-page-text">THE GAME</h1>
+      <h1 class="index-page-text">THAT NEVER GETS OLD</h1>
+    </div>
+    <div class="index-page-img-container">
+      <img src="images/camo.images/camo.on.stick.png" alt="chameleon">
+    </div>
+  </div>
+   <div class="full-width-image">
+    <img src="images/photos/family.game.jpg" alt="Family playing a game">
+  </div>
+
+  <h1 class="centered-text">CHAMELEON THE GAME</h1>
+  <p class="vision-text">We envision a world where children are able</p>
+  <p class="vision-text">to learn and grow through play</p>
+</div>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/camo.images/curious.camo.png" class="d-block w-100" alt="curious camo">
+        </div>
+        <div class="col-md-6">
+          <h2 class="value-title">Curiousity</h2>
+          <p>Curiosity is a powerful force that drives exploration, learning, and discovery.  
+                 With our game, you'll have the opportunity to explore new topics and expand your knowledge with new play cards every month! 
+                Are the questions a little too hard this month, and did you not manage to beat your dad? Don’t worry, next month you will have new changes and maybe you will be able to beat him then! </p>
+        </div>
       </div>
-    </main>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/camo.images/innovative.camo.png" class="d-block w-100" alt="innovative camo" >
+        </div>
+        <div class="col-md-6">
+          <h2 class="value-title">Innovation</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod lacus et est volutpat bibendum. Suspendisse potenti. Nam hendrerit volutpat risus, a ullamcorper enim commodo sit amet. Curabitur consectetur, quam in pulvinar venenatis, turpis nisl vestibulum arcu, sed aliquet massa tortor ut est.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/camo.images/fun.camo.png" class="d-block w-100" alt="fun camo">
+        </div>
+        <div class="col-md-6">
+          <h2 class="value-title">Fun</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod lacus et est volutpat bibendum. Suspendisse potenti. Nam hendrerit volutpat risus, a ullamcorper enim commodo sit amet. Curabitur consectetur, quam in pulvinar venenatis, turpis nisl vestibulum arcu, sed aliquet massa tortor ut est.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div>
+    <img src="images/camo.images/curious.camo.png"  alt="curious.camo" style="width: 33%;">
+    <img src="images/camo.images/innovative.camo.png"  alt="innovative.camo" style="width: 33%;">
+    <img src="images/camo.images/fun.camo.png"  alt="fun.camo" style="width: 33%;">
+  </div>
+  <h5 class="fst-italic mb-5">Coming soon...</h5>
+  <div class="container text-center">
+    <p>This is a page you can use as a placeholder for your future website.</p>
+    <p>Once published (which should be at the end of week 5 of the project), it can be fully integrated within your marketing campaign.</p>
+    <p>You will then replace this landing page by a full website.</p>
+    <p>To build your website, pick and mix elements from the UX pattern pages of this website (check menu above).</p>
+  </div>
+</main>
     <!-- End of main placeholder -->
 
   </body>
