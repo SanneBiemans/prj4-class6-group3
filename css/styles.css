@@ -165,7 +165,7 @@ section{
 
 .content-above-corporate {
 	margin-bottom: 50px;
-	margin-top: -200px;
+	margin-top: -50px;
 }
 
 .centered-text {
@@ -240,3 +240,77 @@ footer {
 .nav-link {
 	color:#00975D;
 }
+
+.btn {
+	background-color: #5ADAE6;
+	font-family: 'Lato', sans-serrif;
+	font-size: 30px;
+	font-color: #00975d;
+	margin-bottom: 30px;
+	box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2);
+	border-color: #5adae6;
+}
+
+
+.container-about {
+  max-width: 3000px !important;
+  width: 95%; 
+  margin: 0 auto;
+  
+}
+
+.about-background {
+	background-color: #ff971e;
+}
+
+.about-first-title {
+		font-family: 'Delicious Handrawn', cursive;
+	color: #00975d;
+	font-size: 70px;
+}
+.about-first {
+	font-family: 'Delicious Handrawn', cursive;
+	color: #00975d;
+	font-size: 50px;
+}
+
+.img-small {
+  max-width: 40%;
+  height: auto;
+  margin: 10px;
+}
+
+.bg-container {
+	background-color: #5ADAE6 !important;
+}
+
+.text-container {
+  margin-top: 10px;
+}
+
+.img-middle {
+	margin-left: 5px;
+}
+
+.txt-middle {
+	margin-right: 10px;
+}
+
+.txt-steps {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+
+}
+
+.about-top {
+	padding-top: 1400px;
+}
+
+.about-bottom {
+	padding-bottom: 50px;
+}
+
+.txt-close {
+	margin-bottom: -5px;
+}
+
