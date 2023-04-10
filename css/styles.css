@@ -40,12 +40,13 @@ header {
 
 /* Changing the background color for the navigation bar */
 
-.navbar {
-	min-height: 150px;
-	padding-bottom: 35px;
-	padding-top: 20px;
-}
 
+.navbar {
+	
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-color: transparent;
+}
 
 
 .navbar-brand img{
@@ -59,7 +60,8 @@ header {
   width: 100%;
   z-index: 100;
 }
-/* Effect on social media buttons */
+*/
+
 
 footer a:hover {
 	opacity: .5;
@@ -124,7 +126,15 @@ section{
   flex-direction: column;
 }
 
-.index-page-img-container {
+.about-page-text-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	margin-bottom: 10px;
+	padding-bottom: 70px;
+}
+
+.index-page-img-container { 
   flex: 1;
   display: flex;
   justify-content: center;
@@ -142,7 +152,7 @@ section{
 
 .full-width-image {
   width: 100%;
-  margin: 50px;
+  position: absolute;
   
 }
 
@@ -155,17 +165,31 @@ section{
 
 .content-above {
 	margin-top: 1000px;
-	margin-bottom: -50px;
+	margin-bottom: 50px;
+	padding-top: 500px;
 }
 
 .content-above-about {
-	margin-top: 500px;
-	margin-bottom: -50px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	padding-top: 1650px;
+	padding-bottom: 60px;
 }
+
+
 
 .content-above-corporate {
 	margin-bottom: 50px;
 	margin-top: -50px;
+	padding-top: 200px;
+}
+
+.corporate-page-text {
+	font-family: 'Delicious Handrawn', cursive;
+	font-size: 100px;
+	color: #5adae6;
+	text-shadow: 5px 5px 0 #00975d;
+	padding-bottom: 100px;
 }
 
 .centered-text {
@@ -173,6 +197,17 @@ section{
   font-family: 'Delicious Handrawn', cursive;
   font-size: 80px;
   color: #ff971e;
+  text-shadow: 2px 2px #5adae6;
+}
+
+.contact-text {
+	 text-align: left;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 50px;
+  color: #5adae6;
+  text-shadow: 2px 2px #ff971e;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
 .vision-text {
@@ -189,7 +224,7 @@ section{
 .value-title {
 	font-family: 'Delicious Handrawn', cursive;
 	color: #5adae6;
-	font-size: 60px;
+	font-size: 50px;
 	margin-top: 60px;
 
 }
@@ -200,6 +235,7 @@ section{
 
 .footer-looks {
 	background-color: #ff971e !important;
+	width: 100%;
 }
 
 .footer-text {
@@ -238,17 +274,24 @@ footer {
 }
 
 .nav-link {
-	color:#00975D;
+	color:#5adae6;
+	text-shadow: 1px 1px 1px #00975d;
 }
 
 .btn {
-	background-color: #5ADAE6;
+	background-color: #ff971e;
 	font-family: 'Lato', sans-serrif;
 	font-size: 30px;
 	font-color: #00975d;
 	margin-bottom: 30px;
 	box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2);
 	border-color: #5adae6;
+}
+
+
+.btn:hover {
+	background-color: #5adae6;
+	border-color: #ff971e;
 }
 
 
@@ -267,11 +310,13 @@ footer {
 		font-family: 'Delicious Handrawn', cursive;
 	color: #00975d;
 	font-size: 70px;
+	text-shadow: 2px 2px #5adae6;
 }
 .about-first {
 	font-family: 'Delicious Handrawn', cursive;
 	color: #00975d;
 	font-size: 50px;
+	text-shadow: 2px 2px #5adae6;
 }
 
 .img-small {
@@ -314,3 +359,266 @@ footer {
 	margin-bottom: -5px;
 }
 
+.dropdown-menu {
+	color: #00975d;
+}
+
+.page-top {
+	height: 500px;
+	width: 100%;
+	background-color: #ff971e;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	  position: relative;
+  z-index: 5;
+}
+
+.video-home {
+	padding-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.video {
+	margin-top: -100px;
+	margin-bottom: 50px;
+	height: auto;
+	width: 100%;
+	position: top;
+
+	
+}
+
+.full-width-video video {
+	  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+.full-width-video {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+/*
+.link-vid {
+	  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #5adae6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+*/
+
+.buttons-video {
+	display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 999;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-primary {
+	margin-right: 5px;
+}
+
+.btn-secondary {
+	margin-left: 5px;
+}
+
+.new-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.how-to {
+	background-color: #ff971e;
+	padding: 20px;
+	margin-left: 100px;
+	margin-right:100px;
+	margin-top: -100px;
+}
+
+
+.img-left {
+	margin-left: 150px;
+}
+
+.img-right {
+	margin-left: 150px;
+
+	
+}
+
+.card-header {
+	background-color: #ff971e;
+}
+
+.card-body {
+	background-color: #5adae6;
+}
+
+.card-text {
+		font-family: 'Delicious Handrawn', cursive;
+	color: #5adae6;
+	font-size: 50px;
+	text-shadow: 2px 2px #00975d;
+}
+
+
+.fw-normal {
+	font-family: 'Delicious Handrawn' cursive !important;
+	font-color: #5adae6 !important;
+	font-size: 20px !important;
+}
+
+
+
+.pricing-title {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.checkout-title {
+		font-family: 'Delicious Handrawn', cursive;
+	color: #00975d;
+	font-size: 50px;
+	text-shadow: 2px 2px #5adae6;
+}
+
+.text-cart {
+	font-color: #00975d !important;
+	font-family: Lato, sans-serif;
+}
+
+.open-amount {
+	margin-bottom: 10px;
+}
+
+.team-photos {
+	height: 200px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+.team-name-left {
+	margin-left: 140px;
+	font-family: 'Delicious Handrawn', cursive;
+	color: #5adae6;
+	font-size: 25px;
+}
+.team-name-middle {
+	margin-left: 148px;
+	font-family: 'Delicious Handrawn', cursive;
+	color: #5adae6;
+	font-size: 25px;
+}
+
+.team-name-right {
+	margin-left: 144px;
+	font-family: 'Delicious Handrawn', cursive;
+	color: #5adae6;
+	font-size: 25px;
+}
+
+.team-info-left {
+	margin-left: 135px;
+}
+
+.team-info-middle {
+	margin-left: 120px;
+}
+
+.team-info-right {
+	margin-left: 150px;
+}
+
+.value-photo {
+	height: 370px;
+	width: 370px;
+	margin-right: 50px;
+	object-fit: containt;
+
+}
+
+.value-text {
+	margin-left: 200px;
+	margin-right: -200px;
+}
+
+.innovative-title {
+	margin-left: 200px;
+}
+
+.social-image {
+	height:40px;
+	width: 40px;
+	position: right;
+}
+
+.instagram.img {
+	margin-right: -100px;
+}
+
+
+
+.carousel-icon {
+	color: #00975d !important;
+}
+
+.filler-text {
+	color: #5adae6;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ff971e;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ff971e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: #fff3d5;
+  padding: 20px;
+}
+
+.message {
+	height: 200px;
+}
+
+.xtra-btn {
+	margin-left: 20px;
+}
+
+.stay {
+	position: absolute;
+}

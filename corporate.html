@@ -37,7 +37,7 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-   <nav class="navbar navbar-expand-lg navbar-light">
+   <nav class="navbar navbar-expand-lg navbar-light navbar-place">
       <div class="container-fluid">
         <a class="navbar-brand ms-3" href="#">
           <img src="images/chameleon.logo.nb.png" width="150" alt="Chameleon Logo">
@@ -47,14 +47,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                  <li class="nav-item">
               <a class="nav-link nav-title-page" aria-current="page" href="index.html">Home</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link nav-title-page" aria-current="page" href="about-the-game.html">About</a>
+              <a class="nav-link nav-title" aria-current="page" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active nav-title-page" href="corporate.html">Corporate</a>
+              <a class="nav-link active nav-title" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
@@ -63,9 +63,9 @@
     <!-- End of navigation bar -->
 
     <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-  <div class="first-row content-above-corporate" style="padding-top: 200px">
+  <div class="first-row content-above-corporate">
     <div class="index-page-text-container">
-      <h1 class="index-page-text" style="padding-bottom: 100px">CORPORATE INFORMATION</h1>
+      <h1 class="index-page-text">CORPORATE INFORMATION</h1>
     </div>
   </div>
 
@@ -134,7 +134,7 @@
                 <td>210626</td>
                 <td>Vision & Value - Curiousity</td>
                 <td>
-                  <a href="index.html">Link to "HOME" page</a>
+                  <a href="about.html">Link to "ABOUT" page</a>
                 </td>
               </tr>
               <tr>
@@ -142,7 +142,7 @@
                 <td>211371</td>
                 <td>Value - Fun</td>
                 <td>
-                  <a href="index.html">Link to "HOME" page</a>
+                  <a href="about.html">Link to "ABOUT" page</a>
                 </td>
               </tr>
               <tr>
@@ -150,15 +150,15 @@
                 <td>210674</td>
                 <td>Value - Innovation</td>
                 <td>
-                  <a href="index.html">Link to "HOME" page</a>
+                  <a href="about.html">Link to "ABOUT" page</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">4.</th>
                 <td>210626</td>
-                <td>About the game</td>
+                <td>How the game works</td>
                 <td>
-                  <a href="about-the-game.html">Link to "ABOUT" page</a>
+                  <a href="index.html">Link to "HOME" page</a>
                 </td>
               </tr>
             </tbody>
@@ -204,22 +204,40 @@
                <em class="font-example"> 'Delicious Handrawn' </em> We wanted a playful "handwritten" font for the titles that were used on the website. This font creates that playful "handwritten" effect, but it is still really clear what it says.
                <em class="font-example-two"> 'Lato' </em> For the rest of the site we chose a really simple and clear font. We wanted it to be modern, easy to read and "basic", so we could use more color and images without the site being hysterical.
             <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
+                  <em>We used a carousel to show the values of our company on the about site. We chose for a carousel, so people were able to look through the values, without having too much text on the page at one time. We added a carousel with buttons, so people can decide themselves how long they look at the values. &hellip;</em>
+                    <em> We kept the menu (navigation bar) really simple with only two buttons (if you do not count the corporate page). This is because we feel like there are no other pages needed and since the pages are relatively small, it is easy to find the content on the pages you want. If you have to scroll down a little bit more (funding tiers for example), we have added a button higher on the page, so it is easier for the users to find. &hellip;</em>
+
+
             <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
+                     <em>HOME PAGE: The home page consists of a video at the top of the page, this is to have a moving element as soon as you open the site, so it really grabs your attention. Inside the video, there are two buttons that go to the funding tiers and the about page. The funding tiers is lower in the page, so you will be send down. The about page is a new page, so you will be sent to a new page. Underneat the video (but partly overlapping with the video) is the information about the game itself. The information is partly overlapping the video, so it is clear that there is more information beneath, without having to scroll down. After the information about the came are the funding tiers. This is done with a bootstrap example of pricing. We used this example, because you were able to add some information and also a button to go to a different page.&hellip;</em>
+                   <em>ABOUT PAGE: On the about page we start with the vision, so it is really clear for the people what we stand for as soon as you open the page. Beneath that is a carousel that contains the values. After the values is a part with the team information. We used another bootstrap example, because this example already contained three rounded images with text underneath. After the meet the team is a contact information. Here we stated all our contact information, but they are also links, so when someone clicks on them they will be sent to our social media immediately.&hellip;</em>
+                      <em>NAVIGATION BAR: We choose to have a navigation bar without a background color. This is so it will not take too much attention of the page. The navigation bar contains the logo of the brand, a home button, a button to the about page. And a button to the corporate page.&hellip;</em>
+                   <em>FOOTER: The footer contains the name of our company, and a link to our Instagram and mail. Therefore it is possible to get in contact with us from every page.&hellip;</em>
+                  
+
+
             <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
             <li>Please relate these elements to other units, for example:
               <ul>
                 <li>How does website design fit the <strong>values and personality of the brand</strong>?</li>
+                         <em>The main value we kept in mind with making the site is fun. We used bright colors, to make it seem happy and colorfull. &hellip;</em>
+
+
                 <li>How does website design fit the <strong>marketing and communication strategy</strong>?</li>
+                     <em>We used a carousel to show the values of our company on the about site. We chose for a carousel, so people were able to look through the values, without having too much text on the page at one time. We added a carousel with buttons, so people can decide themselves how long they look at the values. &hellip;</em>
+
                 <li>How does website design help showcase the <strong>unique value proposal of the product</strong>?</li>
+                     <em>We used a carousel to show the values of our company on the about site. We chose for a carousel, so people were able to look through the values, without having too much text on the page at one time. We added a carousel with buttons, so people can decide themselves how long they look at the values. &hellip;</em>
+
+
               </ul>
             </li>
           </ul>
           <h4 id="production-2" class="mt-2">Credits</h4>
           <p>Please provide links and/or credits for third-party elements including:</p>
           <ul>
-            <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
-            <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
-            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
+            <li>Other than the template, there are no other third-party elements used. We used bootstrap 5.2, but that was already linked to the site.</li>
+            <li>
           </ul>
           <h4 id="production-3" class="mt-2">Testing Report</h4>
           <p>Please write about&hellip;</p>
@@ -365,11 +383,19 @@
     </main>
 
     <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body full-width footer-looks">
+   <footer class="shadow-lg mt-auto py-4 bg-body full-width footer-looks">
   <div class="container full-width">
     <div class="row justify-content-between align-items-center full-width footer-text">
       <div class="col-auto">
-        <p>Class 6 - Group 3</p>
+        <p>© 2023 Chameleon, Inc</p>
+      </div>
+      <div class="col-auto ms-auto d-flex align-items-center">
+        <a class="me-4 d-flex align-items-center instagram-img" href="https://www.instagram.com/chameleon_thegame/">
+          <img class="social-image instagram-img" src="images/socials/instagram.png" alt="Instagram">
+        </a>
+         <a class="d-flex align-items-center" href="mailto:210626@buas.nl">
+          <img class="social-image" src="images/socials/mail.png" alt="Email">
+        </a>
       </div>
     </div>
   </div>
