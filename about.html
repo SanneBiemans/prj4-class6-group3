@@ -74,14 +74,15 @@
      </div>
     </div>
 
-
+</main>
  
     <!-- A grid with cards
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
       Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
     -->
-  <main class="container mt-4">
-
+    <!--
+ <main class="d-block">
+-->
   <div class="text-center">
     <h1 class="display-4 centered-text">'We envision a world</h1> 
     <h1 class="display-4 centered-text">where all children enjoy learning'</h1>
@@ -93,7 +94,7 @@
       <div class="carousel-item active">
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <img src="images/camo.images/curious.camo.png" class="d-block value-photo mx-auto" alt="curious camo">
+            <img src="images/camo.images/curious.camo.png" class="d-block value-photo mx-auto " alt="curious camo">
           </div>
           <div class="col-md-9 col-sm-6 container-fluid">
             <h3 class="value-title innovative-title">Discovering Curiosity</h3>
@@ -174,15 +175,15 @@
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
     <label for="lname">Mail</label>
-    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+    <input type="text" id="lastname" name="lastname" placeholder="example@gmail.com">
 
     <label for="subject">Message</label>
     <textarea class="message" id="subject" name="subject" placeholder="Write something.."></textarea>
 
-    <a type="submit" value="Submit">
+    
   </form>
 </div>
-<button type="button" class="btn btn-primary xtra-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-secondary xtra-btn send-message" data-bs-toggle="modal" data-bs-target="#exampleModal">
   SEND MESSAGE
 </button>
 
@@ -198,7 +199,7 @@
        The Chamaleon team will contact you through email as soon as possible!
       </div>
       <div class="modal-footer">
-        <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
+        <a class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
       </div>
     </div>
   </div>
@@ -206,8 +207,9 @@
 
 
 
-
+<!--
 </main>
+-->
 
       
     
@@ -215,7 +217,7 @@
     
 
     <!-- A footer with socials -->
-</div>
+
 <footer class="shadow-lg mt-auto py-4 bg-body full-width footer-looks">
   <div class="container full-width">
     <div class="row justify-content-between align-items-center full-width footer-text">
@@ -234,6 +236,6 @@
   </div>
 </footer>
     <!-- End of the grid -->
-</main>
+
   </body>
 </html>

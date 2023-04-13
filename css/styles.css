@@ -170,10 +170,10 @@ section{
 }
 
 .content-above-about {
-	margin-top: 150px;
+	
 	margin-bottom: 50px;
-	padding-top: 1650px;
-	padding-bottom: 60px;
+	padding-top: 200px;
+	padding-bottom: 40px;
 }
 
 
@@ -559,6 +559,7 @@ footer {
 
 .innovative-title {
 	margin-left: 200px;
+	margin-top: 50px;
 }
 
 .social-image {
@@ -639,5 +640,12 @@ input[type=submit]:hover {
 	margin-left: 200px;
 }
 
+.send-message {
+	width: 670px !important;
+}
 
+.carousel-thing {
+	width: 100%;
+	height: 100%;
+}
 
